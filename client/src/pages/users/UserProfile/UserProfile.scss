@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+.UserPerfilGeneral {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+.UserPerfilButton {
+  padding: 2rem;
+  > p {
+    font-size: larger;
+    font-weight: 700;
+  }
+}
+.UserPerfilButton:hover {
+  transform: scale(0.9);
+}
+.UserPerfilIcono {
+  width: 2rem;
+}
+.UserPerfilCard {
+  width: 25rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  padding: 2rem;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    width: 100%;
+  }
+}
+
+.UserCard {
+  width: 25rem;
+  > h3 {
+    font-weight: 600;
+    font-family: "PT Sans", sans-serif;
+  }
+}
+
+.UserPerfilCard2 {
+  width: 18rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  padding: 2rem;
+}
+
+.pParrafo {
+  color: #c5c3c3;
+}
+
+.h5perfil {
+  span {
+    color: #c5c3c3;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 1rem;
+  }
+}

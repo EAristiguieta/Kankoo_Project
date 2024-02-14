@@ -1,0 +1,42 @@
+@import "./../../../styles/mixins.scss";
+
+.divRegister {
+  width: 35rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  padding: 4rem;
+  margin-bottom: 4rem;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: -4rem;
+  }
+}
+
+.regLogo {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 844px) {
+    display: none;
+  }
+
+  @media (max-width: 991px) {
+    display: none;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    width: 20rem;
+  }
+}
+
+.linkRegister {
+  color: #f07674;
+}
+
+.pLink {
+  color: #857e7e;
+}

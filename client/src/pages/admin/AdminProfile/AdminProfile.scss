@@ -1,0 +1,42 @@
+.perfilGeneral {
+  width: 50rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  text-align: center;
+
+  @media (max-width: 844px) {
+    width: 100%;
+  }
+}
+.perfilButton {
+  padding: 3rem;
+  text-align: center;
+  > p {
+    font-size: large;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: rgb(108, 107, 107);
+  }
+}
+.perfilButton:hover {
+  transform: scale(0.9);
+}
+
+.perfilCircle {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5rem solid #f07674;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    width: 80%;
+    height: auto;
+  }
+}

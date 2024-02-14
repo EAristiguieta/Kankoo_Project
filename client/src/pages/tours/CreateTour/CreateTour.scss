@@ -1,0 +1,118 @@
+@import "./../../../styles/mixins.scss";
+
+.label-img {
+  background-color: #f3f1f1;
+  border-radius: 0.5rem;
+  border: 1px dashed #b2b0b0;
+  padding: 0.7rem;
+  width: 14.5rem;
+  font-family: "Jost", sans-serif;
+  color: #616466;
+  transition: all 0.1s;
+  margin-top: -0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.iconSubirImg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.createSectionButton {
+  @include BotonCoral;
+  margin-right: 1rem;
+}
+
+.Creando {
+  width: 40rem;
+  background-color: white;
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  margin-bottom: 4rem;
+
+  .CreandoImg {
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .h4Creando {
+    color: #f07674;
+  }
+
+  .pCreando {
+    color: grey;
+    margin-top: 1rem;
+    margin-bottom: 1.9rem;
+  }
+
+  @media (max-width: 884px) {
+    width: 26rem;
+    margin-left: 1.3rem;
+  }
+
+  @media (max-width: 1180px) {
+    width: 36rem;
+    margin-left: 1.3rem;
+  }
+}
+
+.iconPunto {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.portadaCreando {
+  width: 12rem;
+  border-radius: 1.5rem;
+
+  @media (max-width: 884px) {
+    width: 8rem;
+  }
+}
+
+.divFormSection {
+  width: 55rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 20px -5px rgba(28, 28, 28, 0.271);
+  padding: 4rem;
+
+  margin-bottom: 8rem;
+
+  @media (max-width: 884px) {
+    width: 10rem;
+  }
+
+  @media (max-width: 1180px) {
+    width: 40rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.formlogin {
+  width: 26, 5rem;
+
+  Button {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.botonsLogin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.validationCheck {
+  > p {
+    margin: 1rem;
+    color: #f07674;
+  }
+}

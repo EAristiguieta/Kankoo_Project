@@ -1,0 +1,124 @@
+@import "./../../../styles/mixins.scss";
+
+.OneSectionFather {
+  padding-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .OneSectionBtn {
+    @include BotonCoral;
+    margin: 0.2rem;
+    margin-bottom: 10px;
+  }
+
+  .OneSectionSubline {
+    color: red;
+    background-color: red;
+    height: 5px;
+    width: 100px;
+  }
+}
+
+.OneSectionResourceOneIcon {
+  color: #f07674;
+  font-size: 3rem;
+  cursor: pointer;
+
+  &.active {
+    color: red;
+  }
+
+  &:hover {
+    color: red;
+  }
+}
+
+.ImageSection {
+  margin-bottom: 50px;
+}
+
+.OneSectionResourceInfo {
+  padding-top: 20px;
+}
+
+video {
+  width: 40vw;
+  border-radius: 1.5rem;
+}
+
+audio {
+  width: 35vw;
+  border-radius: 1.5rem;
+}
+
+.OneSectionResourcesContainer {
+  gap: 16px;
+  align-items: stretch;
+}
+
+.OneSectionResourceImg {
+  width: 25vw;
+  height: 45vh;
+  display: block;
+  border-radius: 1.5rem;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .custom-audio-player {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-video-player {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .OneSectionResourceImg {
+    width: 55vw;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .Textosofresources {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .OneSectionFather {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .OneSectionResourcesControls {
+    text-align: center;
+  }
+
+  .OneSectionSubline {
+    margin: 0 auto;
+  }
+  .OneSectionBtnContainer {
+    text-align: left;
+    padding-left: 2rem;
+  }
+}
+
+.Textosofresources {
+  box-sizing: border-box;
+  max-width: 25rem;
+  min-width: 25rem;
+  overflow-wrap: break-word;
+  padding: 1rem;
+  margin: 5px;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+}

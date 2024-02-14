@@ -1,0 +1,93 @@
+@import "./../../styles/mixins.scss";
+
+.table-container {
+  text-align: center;
+  margin-top: 20px;
+  //lakhsf
+  .table-title {
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .btn-back {
+    @include BotonCoral;
+    display: flex;
+    justify-content: flex-end;
+
+    @media (min-width: 768px) {
+      justify-content: center;
+    }
+  }
+
+  .table-wrapper {
+    overflow-x: auto; // Añadir scroll horizontal en dispositivos pequeños
+
+    .table {
+      width: 100%;
+      th {
+        background-color: #f07674;
+        color: white;
+        font-size: 18px;
+
+        &:first-child {
+          border-top-left-radius: 8px;
+        }
+
+        &:last-child {
+          border-top-right-radius: 8px;
+        }
+      }
+    }
+
+    tbody {
+      td {
+        position: relative;
+      }
+    }
+
+    .btn-activate,
+    .btn-deactivate {
+      color: white;
+      border: none;
+      margin-bottom: 8px;
+      position: relative;
+
+      &:hover {
+        background-color: #d9534f;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      @media (min-width: 768px) {
+        margin-bottom: 0;
+      }
+
+      &.btn-activate {
+        padding: 10px 17px;
+        font-size: 16px;
+        border-radius: 2rem;
+        border: none;
+        background-color: #28a745;
+      }
+
+      &.btn-deactivate {
+        padding: 10px 17px;
+        font-size: 16px;
+        border-radius: 2rem;
+        border: none;
+        background-color: #dc3545;
+      }
+    }
+
+    .btn-profile {
+      @include BotonCoral;
+      transition: background-color 0.3s;
+      &:hover {
+        background-color: #afb4b7;
+      }
+    }
+  }
+}
