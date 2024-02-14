@@ -22,17 +22,17 @@ Puede desactivar o activar usuarios,activar o desactivar guías turísticas, tie
 
 -Pueden:
 <p> Crear guías turísticas de lugares que tienen una o varias fotos. </p>
-<p> Las guías pueden ser gratuitas o de pago(en el lanzamiento serán gratuitas, aunque se deja el campo preparado en BD)  </p>
 <p> Ver un listado con todas sus guías.  </p>
 <p> Modificar, añadir o eliminar contenido de las guías.  </p>
 <p> Valorar otras guías que realicen con una puntuación de 1-5 estrellas.  </p>
 <p> Marcar una guia como favorita.   </p>
+<p> Las guías pueden ser gratuitas o de pago(en el lanzamiento serán gratuitas, aunque se deja el campo preparado en BD)  </p>
 
 <br>
 
 - Exploración:
 
-<p>Tiene un buscador que funciona en tiempo real mientras el usuario hace la búsqueda de la guía en cuestión. </p>
+<p>Utiliza un buscador que funciona en tiempo real mientras el usuario hace la búsqueda de la guía en cuestión. </p>
 <p>Las cards se muestran con una fotografía, título, valoración y precio. </p>
 <p>Una guía tiene un nombre, una imagen y una descripción. </p>
 <p>Se divide en apartados que tienen los lugares destacados que hay que
