@@ -6,6 +6,8 @@ El proyecto, Kankoo, tenía como objetivo revolucionar la forma en que los viaje
 
 Este MVP(minimum viable product) fue un desafío que no solo me permitió expandir mis habilidades técnicas, sino que también me inspiró a ser parte de la creación de algo que podría tener un impacto positivo en la forma en que las personas viajan y exploran el mundo.</p>
 
+Vídeo presentación en YouTube: https://www.youtube.com/watch?v=RT6CjkMvZTk&pp=ygUJc29jcmF0ZWNo
+
 <br>
 
 <h2>Informacion general </h2>
@@ -51,13 +53,18 @@ Otras librerías: Multer | Bcrypt | Nodemon | Nodemail | Animate.css | Axios | J
 
 <br>
 
-<h2>Contacto</h2>
-Este proyecto ha sido realizado por un equipo de cinco desarrolladores compuesto por:
--
--
--
--
-
 <h2>Capturas</h2>
 
 ![Infografia-Kan](https://github.com/EAristiguieta/Kankoo_Project/assets/147413490/4cc7b65a-d5a7-4ce0-a3a2-d4b27ff3137c)
+
+<h2>Contacto</h2>
+Este proyecto ha sido realizado por un equipo de 4 desarrolladores compuesto por:
+
+- [Edson Aristiguieta ](https://github.com/EAristiguieta)
+
+- [Celia Garcia](https://github.com/Celiagarcialopez)
+
+- [Estrella Parra](https://github.com/EstrellaParra)
+
+- [Chelu Herrera](https://github.com/chelu07)
+
