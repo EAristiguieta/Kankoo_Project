@@ -43,13 +43,13 @@ visitar. </p>
 
 <h2>Tecnologias usadas </h2>
 
-Front-end: HTML5, SASS, Bootstrap, JavaScript, React.
+Front-end: HTML5, SASS, Bootstrap, JavaScript, React.js.
 
 Back-end: Nodejs, Express.js.
 
 Base de datos: MySQL.
 
-Otras librerías: Multer | Bcrypt | Nodemon | Nodemail | Animate.css | Axios | Jwt-Decode
+Otras librerías: Multer | Bcrypt | Nodemon | Nodemail | Animate.css | Axios | Jwt-Decode.
 
 <br>
 
